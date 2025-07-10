@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+  build:
+    commands:
+      - echo Building the Docker image...
+      - docker build -t myapp:latest .
+      - echo Done building.
+
+artifacts:
+  files:
+    - '**/*'
+
