@@ -1,0 +1,7 @@
+artifact_bucket_name = "devops-sid-project-do-not-delete"
+github_owner         = "Laphtrahddis"
+github_repo          = "devops-project"
+github_branch        = "main"
+github_token         = "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"
+ami_id               = "ami-0b770cc0b1bb4b47b"
+key_name             = "devops_project_sid"
